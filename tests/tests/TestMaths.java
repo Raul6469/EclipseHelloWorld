@@ -20,7 +20,7 @@ public class TestMaths {
 
 	@Test
 	public void test() {
-		assertEquals(Maths.sum(1, 4),5);
+		assertEquals(Maths.sum(1, 4),2);
 	}
 
 }
