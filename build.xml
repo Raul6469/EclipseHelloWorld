@@ -32,6 +32,7 @@
             <src path="src"/>
             <classpath refid="EclipseHelloWorld.classpath"/>
         </javac>
+        <javac srcdir="src/" classpath="lib/junit-4.12.jar"/>
     </target>
     <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
     <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
